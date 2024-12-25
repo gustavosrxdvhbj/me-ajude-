@@ -1,0 +1,14 @@
+idade = int(input('Digite sua idade'))
+if idade >= 18:
+    print ('vamos continuar com o registro')
+elif idade <= 18:
+    print('Infelizmente você não esta dentro dos requisitos necessarios para criar uma conta conosco')
+    nome = input('Digite seu nome: ')
+    data = input('Digite sua data de nascimento')
+    cpf = input('Digite seu cpf: ')
+    cartao = input('Digite seu o numero do seu cartão: ')
+    cep = input('Digite seu cep: ')
+    fim = input('Olá', nome, 'você nasceu em', data, 'o seu cpf é', cpf, 'o numero do seu cartão é', cartao, 'e seu cep é', cep, 'correto?')
+
+
+me ajudem com esse codigo em python
